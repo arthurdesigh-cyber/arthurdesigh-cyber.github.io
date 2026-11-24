@@ -9,7 +9,7 @@
 <script>
   // Instagram requires an HTTPS redirect URI. This page hands the authorization result
   // (?code=…&state=… or ?error=…) to the Cadence server running on this computer.
-  var CADENCE = 'http://localhost:3000';
+  var CADENCE = 'https://208-85-22-75.sslip.io';
   location.replace(CADENCE + '/oauth/instagram/callback' + location.search);
 </script>
 </body></html>
